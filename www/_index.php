@@ -6,4 +6,5 @@
  * Time: 03:41
  */
 //$db = new SQLite3("test.db");
+
 include "NewsDB.class.php";
