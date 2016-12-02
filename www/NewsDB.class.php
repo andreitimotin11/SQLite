@@ -74,11 +74,12 @@ class NewsDB implements INewsDB
     function deleteNews($id){}
 
 
-}
+
 function clearStr($data){
 	$data = strip_tags($data);
 	return $this->_db->escapeString($data);
 }
 function clearInt($data){
 	return abs((int)$data);
+}
 }
