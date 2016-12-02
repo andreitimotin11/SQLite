@@ -104,6 +104,9 @@ class NewsDB implements INewsDB
 	
 	function deleteNews($id)
 	{
+		
+		//$sql = "DELETE ";
+
 	}
 	
 	function clearStr($data)
