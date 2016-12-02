@@ -36,7 +36,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     <input type="submit" value="Добавить!" />
 </form>
 <?php
-
+	require "get_news.inc.php";
+	$posts = $news->getNews();
+	print_r($posts);
 ?>
 </body>
 </html>
