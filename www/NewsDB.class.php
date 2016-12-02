@@ -52,7 +52,8 @@ class NewsDB implements INewsDB
 					throw new Exception($this->_db->lastErrorMsg());
 			}
 		} catch (Exception $e) {
-			$e->getMessage();
+			//$e->getMessage();
+			echo "Все плохо!";
 		}
 	}
 	
