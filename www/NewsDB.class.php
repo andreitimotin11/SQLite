@@ -7,6 +7,7 @@
  */
 require_once "INewsDB.class.php";
 
+
 class NewsDB implements INewsDB
 {
 	const DB_NAME = "../news.db";
@@ -104,7 +105,7 @@ class NewsDB implements INewsDB
 	
 	function deleteNews($id)
 	{
-		
+
 		//$sql = "DELETE ";
 
 	}
